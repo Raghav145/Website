@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Real Estate Listings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Dream Properties</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#listings">Listings</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Find Your Dream Home</h2>
+            <p>Explore our latest listings of beautiful properties</p>
+        </div>
+    </section>
+
+    <section id="listings" class="listings">
+        <div class="container">
+            <h2>Featured Properties</h2>
+            <div class="property">
+                <img src="property1.jpg" alt="Luxury Villa">
+                <h3>Luxury Villa</h3>
+                <p>$1,200,000 • 4 Beds • 3 Baths • 3,200 sq.ft</p>
+            </div>
+            <div class="property">
+                <img src="property2.jpg" alt="City Apartment">
+                <h3>Modern City Apartment</h3>
+                <p>$800,000 • 2 Beds • 2 Baths • 1,200 sq.ft</p>
+            </div>
+            <div class="property">
+                <img src="property3.jpg" alt="Suburban House">
+                <h3>Charming Suburban House</h3>
+                <p>$500,000 • 3 Beds • 2 Baths • 2,000 sq.ft</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Dream Properties | All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
